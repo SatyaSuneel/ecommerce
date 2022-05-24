@@ -15,12 +15,10 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse ms-auto" id="navbarNavDropdown" >
-               <!-- <ul class="navbar-nav mx-auto"> -->
-               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-   
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+               <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                     <a class="nav-link active" aria-current="page" href="#">Home</a>
+                     <a class="nav-link" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link" href="aboutus.html">Aboutus</a>
@@ -30,7 +28,7 @@
                      Categories
                      </a>
                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="mens.html">Men's Fashion</a></li>
+                        <li><a class="dropdown-item" aria-current="page"  href="mens.html">Men's Fashion</a></li>
                         <li>
                            <hr class="dropdown-divider">
                         </li>
@@ -42,9 +40,8 @@
                      </ul>
                   </li>
                   <li class="nav-item">
-                     <a class="navbar-brand" href="#"><img src="./assets/images/ll.png"style="width:40px;height: 40px";></a>
+                     <a class="navbar-brand" href="#"><img src="./assets/images/ll.png"style="width:40px""height: 40px";></a>
                   </li>
-                  
                   <li class="nav-item dropdown">
                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                      Account
@@ -57,17 +54,22 @@
                            <hr class="dropdown-divider">
                         </li>
                         <h6>If you are a new user.</h6>
-                        <button type="button" class="btn btn-success text-center">Register</button>
+                        <button type="button" class="btn btn-success align-items-center">Register</button>
                         <h6>If you are allready an account</h6>
 
-                        <button type="button" class="btn btn-danger text-center">Login</button>
+                     
+                        <button type="button" class="btn btn-danger">Login</button>
                      </ul>
                   </li>
                </ul>
             </div>
          </div>
       </nav>
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+
+         <h2 style="text-align: center;">Mens Fashion</h2>
+       
+         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
          <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -75,21 +77,21 @@
          </div>
          <div class="carousel-inner">
             <div class="carousel-item active">
-               <img src="./assets/images/kv.avif" class="d-block w-100" alt="..." style="width: 100%; height: 500px;">
+               <img src="./assets/images/men1.jpeg" class="d-block w-100" alt="..." style="width: 100%; height: 500px;">
                <div class="carousel-caption d-none d-md-block text-danger">
-                  <h5>Men's Fashion</h5>
+      
                </div>
             </div>
             <div class="carousel-item">
-               <img src="./assets/images/oo.avif" class="d-block w-100" alt="..." style="width: 90%; height: 500px";>
+               <img src="./assets/images/men2.jpg" class="d-block w-100" alt="..." style="width: 90%; height: 500px";>
                <div class="carousel-caption d-none d-md-block text-sucess">
-                  <h5>Women's Fashion</h5>
+         
                </div>
             </div>
             <div class="carousel-item">
-               <img src="./assets/images/sr.avif" class="d-block w-100" alt="..." style="width: 100%; height: 500px;">
+               <img src="./assets/images/men6.avif" class="d-block w-100" alt="..." style="width: 100%; height: 500px;">
                <div class="carousel-caption d-none d-md-block text-danger">
-                  <h5>Kid's Wear</h5>
+               
                </div>
             </div>
          </div>
@@ -102,46 +104,80 @@
          <span class="visually-hidden">Next</span>
          </button>
       </div>
-      <div class="container">
-         <h3 class=" text-success">TRENDING PRODUCTS</h3>
-      </div>
 
+          
+          <div class="container">
+          <div class="card-group mt-5">
+         <h5 style="text-align:center;">Trending products</h5>
+      </div>
+   </div>
+       
+
+   
+         
+            <div class="container">
+            <div class="row">
+            <div class="col-md-3">
+               <div class="text-center"><img src="./assets/images/tr1.png" style="width:200px;height:200px;">
+                  <h6>Men's blue Fit shirt</h6>
+                  <p>50%</p>
+               </div>
+            </div>
+
+            <div class="col-md-3">
+               <div class="text-center">
+                  <img src="./assets/images/tr2.png" style="width:190px;height:190px">
+                  <h6>Platinum Watch</h6>
+                  <p>20%</p>
+               </div>
+            </div>
+
+            <div class="col-md-3">
+               <div class="text-center"><img src="./assets/images/tr4.png" style="width:200px;height:200px;">
+                  <h6>Brown Wallet</h6>
+                  <p>20%</p>
+               </div>
+            </div>
+            <div class="col-md-3">
+               <div class="text-center"><img src="./assets/images/tr5.png" style="width:200px;height:200px;">
+                  <h6>Cotton pink shirt</h6>
+                  <p>20%</p>
+               </div>
+            </div>
+         </div>
+      </div>
+       
+    </div>
 
 
 
        <div class="container">
             <div class="row">
             <div class="col-md-3">
-               <div class="text-center"><img src="./assets/images/hr.jpeg" style="width:200px;height:200px;">
-                   <h6 class="text-center">Brown-Blue 100% cotton</h6>
-                  <p class="text-center">Regular Fit Ladie's Panjabies</p>
-                     <button type="button" class="btn btn-primary">Add To Cart</button>
-                  </div>
+               <div class="text-center"><img src="./assets/images/t6.png" style="width:200px;height:200px;">
+                  <h6>Spects</h6>
+                  <p>50%</p>
+               </div>
             </div>
 
             <div class="col-md-3">
                <div class="text-center">
-                  <img src="./assets/images/gg.png" style="width:200px;height:200px;">
-                  <h6 class="text-center">Brown-Blue 100% cotton</h6>
-                     <p class="text-center">Regular Fit Men's T-shirt </p>
-                        <button type="button" class="btn btn-primary">Add To Cart</button>
-                     </div>
-                  
+                  <img src="./assets/images/t8.png" style="width:200px;height:200px;">
+                  <h6>Spects</h6>
+                  <p>20%</p>
+               </div>
             </div>
 
             <div class="col-md-3">
-               <div class="text-center"><img src="./assets/images/rr.jpg" style="width:200px;height:200px;">
-                  <h6 class="text-center">Brown-Blue 100% cotton</h6>
-                     <p class="text-center">Regular shirt</p>
-                        <button type="button" class="btn btn-primary">Add To Cart</button>
-                     </div>
+               <div class="text-center"><img src="./assets/images/t9.png" style="width:200px;height:200px;">
+                  <h6>Brown Wallet</h6>
+                  <p>20%</p>
+               </div>
             </div>
             <div class="col-md-3">
-               <div class="text-center"><img src="./assets/images/t16.png" style="width:200px;height:200px;">
-                  <h6 class="text-center">Blue 100% slik saree</h6>
-                     <p class="text-center">Regular womens uses</p>
-                        <button type="button" class="btn btn-primary">Add To Cart</button>
-                     </div>
+               <div class="text-center"><img src="./assets/images/t10.png" style="width:200px;height:200px;">
+                  <h6>Cotton pink shirt</h6>
+                  <p>20%</p>
                </div>
             </div> 
          </div>
@@ -149,69 +185,43 @@
 
 
 
-
-
-
-
-
-
-
-        <!--  <div class="card-group">
-            <div class="card">
-               <div class="text-center"> <img class="card-img-top" src="./assets/images/hr.jpeg" alt="Card image cap" style="width:200px;height: 250px;"> </div>
-               <div class="card-body">
-                  <h6 class="text-center">Brown-Blue 100% cotton</h6>
-                  <p class="text-center">Regular Fit Ladie's Panjabies</p>
-                  <div class="text-center">
-                     <button type="button" class="btn btn-primary">Add To Cart</button>
-                  </div>
-               </div>
-               <div class="card-footer">
+ <div class="container">
+            <div class="row">
+            <div class="col-md-3">
+               <div class="text-center"><img src="./assets/images/t11.png" style="width:200px;height:200px;">
+                  <h6>Men's blue Fit shirt</h6>
+                  <p>50%</p>
                </div>
             </div>
-            <div class="card">
+
+            <div class="col-md-3">
                <div class="text-center">
-                  <img class="card-img-top" src="./assets/images/gg.png" alt="Card image cap" style="width:200px;height: 250px;">
-                  <div class="card-body">
-                     <h6 class="text-center">Brown-Blue 100% cotton</h6>
-                     <p class="text-center">Regular Fit Men's T-shirt </p>
-                     <div class="text-center">
-                        <button type="button" class="btn btn-primary">Add To Cart</button>
-                     </div>
-                  </div>
-               </div>
-               <div class="card-footer">
+                  <img src="./assets/images/t12.png" style="width:200px;height:200px;">
+                  <h6>Platinum Watch</h6>
+                  <p>20%</p>
                </div>
             </div>
-            <div class="card" >
-               <div class="text-center">
-                  <img class="card-img-top" src="./assets/images/rr.jpg" alt="Card image cap" style="width:170px;height: 270px;">
-                  <div class="card-body">
-                     <h6 class="text-center">Brown-Blue 100% cotton</h6>
-                     <p class="text-center">Regular shirt</p>
-                     <div class="text-center">
-                        <button type="button" class="btn btn-primary">Add To Cart</button>
-                     </div>
-                  </div>
-               </div>
-               <div class="card-footer">
+
+            <div class="col-md-3">
+               <div class="text-center"><img src="./assets/images/t13.png" style="width:200px;height:200px;">
+                  <h6>Brown Wallet</h6>
+                  <p>20%</p>
                </div>
             </div>
-         </div> -->
-         <br>
-         <div class="row">
-            <div class="col-md-5" >
-               <img src="./assets/images/test.png" class="img-fluid" style="float: right;">
-            </div>
-            <br>
-            <div class="col-md-6 pt-5 mt-5">
-               <h1 class="text-center">Download Snapdeal</h1>
-               <h2 class="text-center">App Now</h2>
-               <p class="text-center"> Fast,Simple $ Delightful <br>All it takes is 30 seconds to Download</p>
-            </div>
+            <div class="col-md-3">
+               <div class="text-center"><img src="./assets/images/t14.png" style="width:200px;height:200px;">
+                  <h6>Cotton pink shirt</h6>
+                  <p>20%</p>
+               </div>
+            </div> 
          </div>
-         <br>
-         <footer class="bg-light text-center text-white">
+      </div>
+
+   <br>
+
+        
+
+        <footer class="bg-light text-center text-white">
             <!-- Grid container
                <div class="container p-4 pb-0">
                  <Section: Social media -->
@@ -270,4 +280,15 @@
       <!-- Copyright -->
       </footer>
    </body>
-</html>
+</html>   
+
+
+      
+
+
+
+   
+
+
+
+  
